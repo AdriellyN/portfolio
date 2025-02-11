@@ -44,13 +44,14 @@
     </header>
 
     <!-- Seção Principal da Página -->
-    <main >
+    <main>
         <section id="home" class="flex home_container">
             <article id="home_texto" class="flex home_content">
 
                 <h4>Bem-vindo ao Meu Blog Pessoal</h4>
                 <h1>Desenvolvedora Full Stack e Cientista de Dados</h1>
-                <p>Saiba mais sobre ciência e análise de dados, conheça os projetos de desenvolvimento Full Stack que eu faço. Podemos conversar sobre isso e quem sabe até fazer um projeto juntos!</p>
+                <p>Saiba mais sobre ciência e análise de dados, conheça os projetos de desenvolvimento Full Stack que eu
+                    faço. Podemos conversar sobre isso e quem sabe até fazer um projeto juntos!</p>
                 <a href="https://github.com/AdriellyN" target="_blank" class="botao">
                     Explorar
                 </a>
@@ -61,29 +62,17 @@
         </section>
 
         <section id="about" class="flex about_container">
-            <article class="about_content"> 
-                <img src="./assets/img/Adrielly.png" alt="Foto do Perfil do Github">
-            </article>
-            
-            <article id="about_texto">
-                <h2>Sobre mim</h2>
-                <p>Sou MBA em Ciência e análise de dados, e Desenvolvedora Fullstack com foco em Javascript, meu ponto forte é resolver problemas lógicos com criatividade e inovação.</p>
-                <div class="flex about_github">
-                    <a href="https://github.com/AdriellyN" target="_blank" class="botao">
-                        Github
-                    </a>
-                    <p>200 Seguidores</p>
-                    <p>20 Repositórios</p>
-                </div>
-            </article>
+        
         </section>
 
 
         <section id="contact" class="contato_container">
-            
+
             <article id="redes_sociais" class="contato_content">
                 <h4>Contate-me</h4>
-                <p>Entre em contato comigo através do meu LinkedIn, veja mais sobre meus projetos no Github e Instagram. Tem dúvidas, sugestões construtivas ou quer construir um projeto do zero? Me envie uma mensagem atráves do formulário.
+                <p>Entre em contato comigo através do meu LinkedIn, veja mais sobre meus projetos no Github e Instagram.
+                    Tem dúvidas, sugestões construtivas ou quer construir um projeto do zero? Me envie uma mensagem
+                    atráves do formulário.
                 </p>
                 <div id="icones_redes_sociais" class="flex social_container">
                     <a href="https://www.linkedin.com/in/adrielly-do-nascimento-ramos/" target="_blank">
@@ -96,10 +85,18 @@
                         <img class="social_icon" src="./assets/img/instagram.svg" alt="Logo do Instagram">
                     </a>
                 </div>
-    
+
             </article>
-            
-            <form action="" method="POST">
+        
+        
+        
+    <!-- Formulário de Contato -->
+            <form action="https://formsubmit.co/b34d64969c286cc784bad77d57b18bf1" method="POST" id="formulario">
+
+                <input type="hidden" name="_next" value="http://127.0.0.1:5501/sucess.html">
+                <input type="hidden" name="_captcha" value="false">
+
+
                 <label for="nome">Nome</label>
                 <input id="nome" type="text" name="nome" placeholder="Digite o seu nome">
                 <span id="txtNome"></span> <!--"span" Aplica uma validação ao campo-->
@@ -124,6 +121,9 @@
     <footer>
         Feito com 🖤 por Adrielly do Nascimento - 2025
     </footer>
+
+    <!-- Script JavaScript -->
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>

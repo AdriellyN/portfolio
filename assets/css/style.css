@@ -232,14 +232,7 @@ h4{
 }
 
 .social_icon:hover{
-    filter: brightness(0) 
-            saturate(100%) 
-            invert(20%) 
-            sepia(24%) 
-            saturate(4557%) 
-            hue-rotate(242deg) 
-            brightness(89%) 
-            contrast(108%);
+    filter: drop-shadow(0 2px 1px #7F0807);
 }
 
 
